@@ -1,0 +1,105 @@
+*{margin: 0;padding: 0%;font-family: sans-serif;box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 9vh;
+
+   
+}
+.main{
+    min-height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
+    width: 100%;
+    background-color: white;
+    
+}
+.menu a{
+    text-decoration: none;
+    width: max-content;
+    color: black;
+    margin: 10px;
+    font-size: 19px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: large;
+    height: 50px;
+
+}
+.logo{
+    font-size: 2em;
+    letter-spacing :2px;
+    margin-right: 0%;
+    gap: 0%;
+    padding-right: 0%;
+
+
+}
+.section1{
+    height: 68vh;
+    background-size: cover;
+    background-image: url(/Users/dhruvkhanna/bezubaan/img4.jpg);
+
+
+}
+.right{
+    margin-left: 10%;
+    font-size: 2em;
+    letter-spacing :2px;
+    width: 50%;
+    float: left;
+    margin-top: 20%;
+    
+}
+.section2{
+    height: 32vh;
+    width: 100%;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+
+    height: 30vh;
+   
+}
+.first{
+    margin-left: 10%;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    text-align: end;
+    color: aliceblue;
+    background-image: url(/Users/dhruvkhanna/bezubaan/img6.jpg);
+}
+.sec{
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(/Users/dhruvkhanna/bezubaan/img8.jpg);
+
+}
+.three{
+    width: 30%;
+    margin-right: 10%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Users/dhruvkhanna/bezubaan/img9.jpg);
+
+}
